@@ -1,0 +1,36 @@
+{
+  "name": "typed-cluster",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core cluster library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc test/test.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-cluster.git"
+  },
+  "keywords": [
+    "typescript",
+    "cluster",
+    "module",
+    "typed",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-cluster/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-cluster#readme",
+  "dependencies": {
+    "typed-child_process": "^1.0.0",
+    "typed-events": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
+}
